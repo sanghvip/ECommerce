@@ -10,3 +10,6 @@ A string containing only characters, numbers, dashes and underscores which is pa
 3. difference between views and coponents
 both are same. just that the views cannot be reused and the component can be reused
 [Resource 1](https://upmostly.com/vue-js/vue-js-differences-between-views-and-components)
+
+4. what is a serializer in django?
+It gets the data from the database and converts it to JSON for front end usage
