@@ -17,3 +17,8 @@ It gets the data from the database and converts it to JSON for front end usage
 5. how to solve the CORS header issue in Django?
 [Resource 1](https://github.com/axios/axios/issues/569)
 [Resource 2-Good Javascript explanation](https://stackoverflow.com/questions/45975135/access-control-origin-header-error-using-axios)
+
+6. what is a viewset in django?
+It is a class based view and allows you to combine the logic for a set of related views in a single class. They dont have any mentod handlers such as get or post, but provides actions like list and create.
+
+7. 
