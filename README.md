@@ -13,3 +13,7 @@ both are same. just that the views cannot be reused and the component can be reu
 
 4. what is a serializer in django?
 It gets the data from the database and converts it to JSON for front end usage
+
+5. how to solve the CORS header issue in Django?
+[Resource 1](https://github.com/axios/axios/issues/569)
+[Resource 2-Good Javascript explanation](https://stackoverflow.com/questions/45975135/access-control-origin-header-error-using-axios)

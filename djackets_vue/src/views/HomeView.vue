@@ -15,7 +15,7 @@
         <h2 class="is-size-2 has-text-centered">Latest products</h2>
       </div>
 
-      <div class ="column is-3" 
+      <div class ="column is-3"
       v-for="product in latestProducts" 
       v-bind:key="product.id">
         <div class="box">
