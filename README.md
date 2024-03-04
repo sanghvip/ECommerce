@@ -20,5 +20,8 @@ It gets the data from the database and converts it to JSON for front end usage
 
 6. what is a viewset in django?
 It is a class based view and allows you to combine the logic for a set of related views in a single class. They dont have any mentod handlers such as get or post, but provides actions like list and create.
+[Resource 1](https://www.django-rest-framework.org/api-guide/viewsets/)
 
-7. 
+7. what is vuex?
+It helps with shared state management in a large vue application
+[Resource 1](https://vuex.vuejs.org/)
