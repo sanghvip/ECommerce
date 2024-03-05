@@ -28,3 +28,10 @@ It helps with shared state management in a large vue application
 
 8. Async await explained
 [Resource 1](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises#async_and_await)
+
+9. Django API view decorators
+[Resource 1](https://www.django-rest-framework.org/api-guide/views/#api_view:~:text=request%20is%20processed.-,%40api_view(),-Signature%3A%20%40api_view)
+
+10. what is a Q object in django?
+It is basically a python object with contains and SQL expressions
+[Resource 1](https://micropyramid.medium.com/querying-with-django-q-objects-56ccca6c0563)
