@@ -25,3 +25,6 @@ It is a class based view and allows you to combine the logic for a set of relate
 7. what is vuex?
 It helps with shared state management in a large vue application
 [Resource 1](https://vuex.vuejs.org/)
+
+8. Async await explained
+[Resource 1](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises#async_and_await)
