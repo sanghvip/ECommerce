@@ -7,7 +7,7 @@
             <ProductBox 
       v-for="product in category.products"
       v-bing:key="product.id"
-      v-bin:product="product"/>
+      v-bind:product="product"/>
         </div>
     </div>
 </template>
@@ -31,6 +31,14 @@ export default {
     },
     mounted() {
         this.getCategory()
+    },
+    watch: {
+        $route(to,from){
+            if (to.name === 'Category'){
+                this.getCategory()
+            }
+        }
+
     },
     methods: {
         async getCategory() {

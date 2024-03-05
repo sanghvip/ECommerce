@@ -18,7 +18,7 @@
       <ProductBox 
       v-for="product in latestProducts"
       v-bing:key="product.id"
-      v-bin:product="product"/>
+      v-bind:product="product"/>
 
     </div>
   </div>
