@@ -35,3 +35,8 @@ It helps with shared state management in a large vue application
 10. what is a Q object in django?
 It is basically a python object with contains and SQL expressions
 [Resource 1](https://micropyramid.medium.com/querying-with-django-q-objects-56ccca6c0563)
+
+11. dynamic routing in vue
+The dyanimc routing is basically having a parameter in your url which is set by the router-link tag and can be accessed in the destination component using the $route.params object property
+[Resource 1](https://vueschool.io/lessons/dynamic-routes?friend=vuerouter)
+    
