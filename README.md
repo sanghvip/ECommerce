@@ -35,3 +35,7 @@ It helps with shared state management in a large vue application
 10. what is a Q object in django?
 It is basically a python object with contains and SQL expressions
 [Resource 1](https://micropyramid.medium.com/querying-with-django-q-objects-56ccca6c0563)
+
+11. what is computed option in Vue?
+It basiaclly helps to get the value daynamically based on the data rendered.
+[Resource 1](https://vuejs.org/guide/essentials/computed#basic-example)
