@@ -8,6 +8,7 @@ import SignupView from '../views/SignupView.vue'
 import LoginView from '../views/LoginView.vue'
 import MyAccountView from '../views/MyAccountView.vue'
 import CheckoutView from '../views/CheckoutView.vue'
+import SuccessView from '../views/SuccessView.vue'
 import store from '@/store'
 
 const routes = [
@@ -51,6 +52,11 @@ const routes = [
     meta: {
       requireLogin: true
     }
+  },
+  {
+    path: '/cart/success',
+    name: 'Success',
+    component: SuccessView,
   },
   {
     path: '/sign-up',
