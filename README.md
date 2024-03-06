@@ -39,3 +39,7 @@ It is basically a python object with contains and SQL expressions
 11. what is computed option in Vue?
 It basiaclly helps to get the value daynamically based on the data rendered.
 [Resource 1](https://vuejs.org/guide/essentials/computed#basic-example)
+
+12. dynamic routing in vue
+The dyanimc routing is basically having a parameter in your url which is set by the router-link tag and can be accessed in the destination component using the $route.params object property
+[Resource 1](https://vueschool.io/lessons/dynamic-routes?friend=vuerouter)
