@@ -10,7 +10,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 
 from .models import Order, OrderItems
-from .serializers import OrderSerializer
+from .serializer import OrderSerializer
 
 @api_view(['POST'])
 @authentication_classes([authentication.TokenAuthentication])
