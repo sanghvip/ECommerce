@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "corsheaders",
     "djoser",
     "product",
+    "order"
 ]
 
 MIDDLEWARE = [
@@ -132,3 +133,5 @@ MEDIA_ROOT = BASE_DIR / 'media/'
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:8080",
 ]
+
+STRIPE_SECRET_KEY = 'pk_test_51OrP1rAIclBP1sBdj9Y5O1Dt1mQRVS2DHFBtETngIBAe3d9Bba5Qy4j3ASII5fZ13aIWPnJrQw0LaCewG70tc6Py00lnRHBqnB'

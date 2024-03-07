@@ -43,3 +43,7 @@ It basiaclly helps to get the value daynamically based on the data rendered.
 12. dynamic routing in vue
 The dyanimc routing is basically having a parameter in your url which is set by the router-link tag and can be accessed in the destination component using the $route.params object property
 [Resource 1](https://vueschool.io/lessons/dynamic-routes?friend=vuerouter)
+
+
+13. *var vs **var in function header and function call?
+[Resource 1](https://stackoverflow.com/questions/11315010/what-do-and-before-a-variable-name-mean-in-a-function-signature)
